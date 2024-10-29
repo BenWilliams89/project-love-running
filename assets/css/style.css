@@ -88,10 +88,13 @@ main {
     margin-top: 47px;
 }
 
-footer{
-    background-color: orange;
+/*footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
-    flex: flex-end;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /*Media query: tablets and larger (768px + */
