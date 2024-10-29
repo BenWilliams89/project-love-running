@@ -97,6 +97,14 @@ main {
     list-style-type: none;
 }
 
+/* styling the icons themselves*/
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color:#3a3a3a
+}
+
 /*Media query: tablets and larger (768px + */
 
 @media screen and (min-width: 768px) {
