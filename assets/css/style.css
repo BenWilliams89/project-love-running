@@ -133,6 +133,25 @@ hr {
     margin: 5px 0;
 }
 
+/* background image in main content */
+
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* to make a circle i'm adding border radius - width and height the same makes it a square */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*footer */
 #social-networks {
     text-align: center;
