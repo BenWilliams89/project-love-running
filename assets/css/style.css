@@ -167,3 +167,26 @@ main{
     }
 }
 }
+
+#reasons{
+    width:90%;
+    margin: 20px auto;
+}
+/*
+#reasons > h2 {
+    text-size: 280%;
+}
+
+#benefits{
+    margin: 20px;
+}
+
+#benefits-physical #benefits-mental {
+    line-height: 20px;
+    margin: 20px;
+    
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+}
