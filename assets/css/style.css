@@ -81,11 +81,16 @@ h1{
     color: #252525;
 }
 
+/* general rule for taking up all space to push footer down */
 main {
-    background-color: lightblue;
-    /* general rule for taking up all space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+/* hero section adding image */
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /*footer */
