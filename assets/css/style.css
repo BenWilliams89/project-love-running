@@ -209,6 +209,12 @@ hr {
     padding: 30px;
 }
 
+#signup-form > h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+    
+}
+
 .text-input{
     color: transparent;
     border: 1px solid #fafafa;
