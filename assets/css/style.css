@@ -216,21 +216,27 @@ hr {
 }
 
 .text-input{
-    color: transparent;
+
+    background: transparent;
+    color: #fafafa;
+    width:100%;
+    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius:2px;
     height:25px;
+    padding: 0 5px;
     
 }
 
 .radio-buttons{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .join-button {
     border-radius: 2px;
+    margin-top: 20px;
     background-color: #454b1b;
     color:#fafafa;
     font-size: 100%;
