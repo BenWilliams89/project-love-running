@@ -200,7 +200,6 @@ hr {
     background-position: 75%;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;
 }
 
 #signup-form{
@@ -323,6 +322,30 @@ width:75%;
 #photos {
     column-count: 3;
 }
+
+/* This is for signup CSS*/
+
+#signup{
+    background-position: center;
+    position: relative;
+}
+
+#signup-form{
+    margin-top: 150px;
+    left: 10%;
+    position:absolute;
+    width: 400px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color:#454b1b
+}
+
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
